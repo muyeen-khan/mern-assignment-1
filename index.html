@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment by Muyeen</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 10 buttons -->
+    <section class="bg-primary-subtle py-5">
+      <div class="container">
+        <h1 class="text-center bg-secondary mb-5">10 buttons</h1>
+        <div class="d-flex justify-content-center flex-wrap gap-3">
+          <button class="btn btn-success one">button-1</button>
+          <button class="btn btn-primary two">button-2</button>
+          <button class="btn btn-secondary three">button-3</button>
+          <button class="btn btn-warning four">button-4</button>
+          <button class="btn btn-info five">button-5</button>
+          <button class="btn btn-light six">button-6</button>
+          <button class="btn btn-dark seven">button-7</button>
+          <button class="btn btn-outline-primary eight">button-8</button>
+          <button class="btn btn-outline-success nine">button-9</button>
+          <button class="btn btn-outline-secondary ten">button-10</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- card -->
+    <section class="bg-secondary-subtle py-5">
+      <div class="container">
+        <h1 class="bg-secondary text-center mb-5">a simple card</h1>
+        <div class="card w-50 mx-auto">
+          <img src="/pexels-nietjuh-1693626.jpg" alt="" class="img-card-top" />
+          <div class="card-body">
+            <h5 class="card-title">Special something is waiting for you</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              voluptatibus maiores non iure alias unde ab adipisci ratione porro
+              eos, labore autem sed ducimus, at cum. Tempora ducimus odit sequi
+              omnis labore, reprehenderit ipsam, blanditiis veritatis saepe
+              eveniet at consequuntur delectus eligendi minus harum excepturi
+              magni, id odio minima libero.
+            </p>
+            <a href="#" class="btn btn-primary">Book your sit</a>
+          </div>
+          <div class="card-footer text-muted">created by Muyeen</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***********
+    form group class is unavailable in bootstrap 5 
+    *********** -->
+
+    <!-- list group -->
+    <section class="py-5 bg-body-secondary">
+      <div class="container">
+        <h1 class="text-center bg-secondary mb-5">List group</h1>
+
+        <ul class="list-group my-3 w-50 mx-auto">
+          <li class="list-group-item text-center fw-bold bg-dark-subtle">
+            Technologies you can learn
+          </li>
+          <li class="list-group-item text-center">Mern stack</li>
+          <li class="list-group-item text-center">Php Laravel</li>
+          <li class="list-group-item text-center">Python</li>
+          <li class="list-group-item text-center">Great HTML</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- navbar -->
+    <section class="py-5 bg-body-tertiary">
+      <div class="container">
+        <h1 class="bg-secondary text-center mb-5">Navbar</h1>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Muyeen Khan</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Web</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">App</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">offline service</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true"
+                    >Controll as Admin</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <!-- progress bar -->
+    <section class="py-5 bg-info-subtle">
+      <div class="container">
+        <h1 class="bg-secondary text-center mb-5">Progress bar</h1>
+        <span>Your work progress..</span>
+        <div
+          class="progress"
+          role="progressbar"
+          aria-label="Animated striped example"
+          aria-valuenow="75"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            style="width: 75%"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pagination -->
+    <section class="py-5 bg-warning-subtle">
+      <div class="container">
+        <h1 class="bg-secondary text-center mb-5">Pagination</h1>
+        <nav
+          aria-label="Page navigation"
+          class="d-flex justify-content-center mb-5"
+        >
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">«</span>
+              </a>
+            </li>
+            <li class="page-item ms-2 active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item ms-2"><a class="page-link" href="#">2</a></li>
+            <li class="page-item mx-2"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">»</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <!-- table -->
+    <section class="py-5 bg-success-subtle">
+      <div class="container">
+        <h1 class="bg-secondary text-center mb-4">Table</h1>
+        <h2 class="text-center">Our team</h2>
+        <table class="table table-striped mb-5">
+          <thead>
+            <tr>
+              <th scope="col">No</th>
+              <th scope="col">First Name</th>
+              <th scope="col">Last Name</th>
+              <th scope="col">Profession</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Abdullah</td>
+              <td>Aslam</td>
+              <td>Developer</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Khaled</td>
+              <td>Adil</td>
+              <td>Designer</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Habib</td>
+              <td>Witcher</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- dropdown -->
+    <section class="py-5 bg-danger-subtle">
+      <div class="container">
+        <h1 class="bg-secondary text-center mb-5">Dropdown</h1>
+
+        <div class="dropdown text-center mb-5">
+          <span class="h4">what would you like to have</span>
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Choose one
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#">Rice</a></li>
+            <li><a class="dropdown-item" href="#">Kachchi</a></li>
+            <li><a class="dropdown-item" href="#">Chinese</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- sources -->
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

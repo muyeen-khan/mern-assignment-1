@@ -1,0 +1,117 @@
+/* buttons */
+.two {
+  border-radius: 10px 0px 10px 0;
+  transition: all linear 0.3s;
+  &:hover {
+    border-radius: 0 10px 0 10px;
+  }
+}
+
+.three {
+  transition: all linear 0.3s;
+  &:hover {
+    box-shadow: 0 0 5px 5px rgb(100, 95, 95);
+  }
+}
+
+.four {
+  transition: all linear 0.3s;
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: red;
+    bottom: 0;
+    left: 0;
+    border-radius: inherit;
+    z-index: -1;
+    transition: all linear 0.3s;
+  }
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+.five {
+  transition: all linear 0.3s;
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 255, 191);
+    bottom: 0;
+    left: 0;
+    border-radius: inherit;
+    z-index: -1;
+    transition: all linear 0.3s;
+  }
+  &:hover::after {
+    height: 0%;
+  }
+}
+
+.six {
+  transition: all linear 0.3s;
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(147, 154, 152);
+    bottom: 0;
+    left: 0;
+    border-radius: inherit;
+    z-index: -1;
+    transition: all linear 0.3s;
+  }
+  &:hover {
+    box-shadow: 0px 4px 5px 0px rgb(147, 154, 152);
+  }
+  &:hover::after {
+    height: 0%;
+  }
+}
+
+.seven {
+  transition: all linear 0.3s;
+  &:hover {
+    color: black;
+    background-color: transparent;
+  }
+}
+
+.eight {
+  transition: all linear 0.3s;
+  &:hover {
+    transform: translateY(5px);
+  }
+}
+
+.nine {
+  transition: all linear 0.3s;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.ten {
+  transition: all linear 1s;
+  background: linear-gradient(45deg, #23dbc6, #026bf5);
+  color: white;
+  outline: none;
+  border: 0;
+  &:hover {
+    background: linear-gradient(45deg, #026bf5, #23dbc6);
+  }
+}
